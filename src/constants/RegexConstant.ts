@@ -12,7 +12,7 @@ export const VALID_TEXT_REGEX = "^[a-zA-Z ]*$";
 
 export const VALID_TEXT_AND_NUMBER_REGEX = "^[a-zA-Z0-9 ]*$";
 
-export const VALID_ADDRESS_REGEX = "([A-Za-z0-9\. -',]+)";
+export const VALID_ADDRESS_REGEX = "^([A-Za-z0-9\. -',]+)";
 
 export const VALID_WEBSITE_REGEX = "(https?:\/\/)?(www\\.)[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,4}\\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)|(https?:\/\/)?(www\\.)?(?!ww)[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,4}\\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)";
 
